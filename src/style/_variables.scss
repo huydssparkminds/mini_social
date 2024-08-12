@@ -1,0 +1,27 @@
+$primary-color-light: #ffffff;
+$secondary-color-light: #000000;
+
+$primary-color-dark: #000000;
+$secondary-color-dark: #ffffff;
+
+
+$color-border : #dfdfdf;
+$color-border-dark : #212121;
+
+$color-text-gray : rgba(168, 168, 168, 1);
+$color-bg-gray : #f8f8f9;
+
+$bg-color-input-dark: #3a3b3c;
+
+body[data-theme="light"] {
+    --color-text: #{$secondary-color-light};
+    --color-background: #{$primary-color-light};
+    --color-border:#{$color-border};
+}
+
+body[data-theme="dark"] {
+    --color-text: #{$secondary-color-dark};
+    --color-background: #{$primary-color-dark};
+    --color-border:#{$color-border-dark};
+    --bg-input: #{$bg-color-input-dark};
+}

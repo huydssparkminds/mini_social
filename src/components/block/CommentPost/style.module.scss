@@ -1,0 +1,14 @@
+.MyComment{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+
+    .inputPost{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": "post1",
+      "userId": 2,
+      "content": "This is a sample post.",
+      "timestamp": "2022-08-08T10:00:00Z",
+      "image": null,
+      "likes": {
+        "count": 15,
+        "users": [2, 3]
+      },
+      "comments": [
+        {
+          "id": "comment1",
+          "author": "Emily Johnson",
+          "content": "Nice post!",
+          "image": "https://dummyjson.com/icon/emilys/128",
+          "timestamp": "2023-08-08T10:05:00Z",
+          "likes": {
+            "count": 3,
+            "users": [2]
+          }
+        },
+        {
+          "id": "comment2",
+          "author": "Ngô Tiến Duy",
+          "content": "I agree!",
+          "image": "https://dummyjson.com/icon/oliviaw/128",
+          "timestamp": "2022-08-08T10:10:00Z",
+          "likes": {
+            "count": 2,
+            "users": [1]
+          }
+        }
+      ]
+    },
+    {
+      "id": "post2",
+      "userId": 1,
+      "content": "Another interesting post.",
+      "timestamp": "2021-08-09T11:00:00Z",
+      "image": null,
+      "likes": {
+        "count": 25,
+        "users": [1, 2]
+      },
+      "comments": [
+        {
+          "id": "comment3",
+          "author": "Emily Johnson",
+          "content": "Thanks for sharing.",
+          "image": "https://dummyjson.com/icon/emilys/128",
+          "timestamp": "2024-08-08T11:05:00Z",
+          "likes": {
+            "count": 4,
+            "users": [1]
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Emily Johnson",
+      "gender": "female",
+      "email": "emily.johnson@x.dummyjson.com",
+      "phone": "+81 965-431-3024",
+      "username": "huy",
+      "password": "huy123123",
+      "birthDate": "1996-5-30",
+      "image": "https://dummyjson.com/icon/emilys/128",
+      "address": "626 Main Street",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Michael Williams",
+      "gender": "male",
+      "email": "michael.williams@x.dummyjson.com",
+      "phone": "+49 258-627-6644",
+      "username": "michaelw",
+      "password": "michaelwpass",
+      "birthDate": "1989-8-10",
+      "image": "https://dummyjson.com/icon/michaelw/128",
+      "address": "385 Fifth Street",
+      "role": "admin"
+    }
+  ]
+}

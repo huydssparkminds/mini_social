@@ -1,0 +1,79 @@
+@import "@/style/variables";
+
+.card {
+    padding: 1rem 1rem 0.5rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+
+    .cardHeader {
+        display: flex;
+        align-items: center;
+
+        .name {
+            margin-left: 10px;
+            font-weight: 500;
+
+            span {
+                color: $color-text-gray;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .cardbody {
+        margin-top: 2rem;
+    }
+
+    .cardfooter {
+        margin-top: 1rem;
+
+        .bottom {
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--color-border);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+
+            .like {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+        }
+
+        .btnBottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0 0.5rem 0;
+            gap: 20px;
+
+            button {
+                height: 30px;
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: transparent;
+                color: $color-text-gray;
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-weight: 600;
+
+
+
+                &:hover {
+                    background-color: rgba(230, 227, 227, 0.536);
+                }
+            }
+
+            .active {
+                color: rgb(122, 122, 250);
+            }
+
+        }
+        
+    }
+}

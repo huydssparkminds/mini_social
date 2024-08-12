@@ -1,0 +1,12 @@
+.sidebarRight {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 300px;
+    border: 1px solid var(--color-border);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

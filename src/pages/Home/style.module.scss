@@ -1,0 +1,29 @@
+@import "@/style/variables";
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filterPost {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .customSelect {
+        margin: 2px;
+
+        :global(.ant-select-selector) {
+            background-color: var(--bg-input);
+            border: 1px solid var(--bg-input) !important;
+            border-radius: 4px;
+            color: var(--color-text);
+        }
+
+
+    }
+
+}

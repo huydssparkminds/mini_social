@@ -1,0 +1,25 @@
+@import "@/style/variables";
+.InputContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-input);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  flex: 1;
+  padding: 0 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 100%;
+  background-color: transparent;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: rgb(178, 176, 176);
+  font-size: 0.9em;
+}
+
+
