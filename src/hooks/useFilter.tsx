@@ -14,7 +14,7 @@ const useFilter = ({
   const [query, setQuery] = useState<string | null>(null);
 
   const filterData = useMemo(() => {
-    if (!posts) return []; // Trả về mảng rỗng nếu posts là null
+    if (!posts) return [];
 
     if (query === null) {
       return posts; 
