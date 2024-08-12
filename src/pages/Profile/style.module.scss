@@ -1,4 +1,5 @@
 @import "@/style/variables";
+@import "@/style/reponsive";
 
 .header {
     display: flex;
@@ -6,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    margin-top: 2rem;
     .name {
         margin: 0.5rem 0 0 0;
     }

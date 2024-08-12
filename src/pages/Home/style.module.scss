@@ -1,5 +1,5 @@
 @import "@/style/variables";
-
+@import "@/style/reponsive";
 .mainContent {
     display: flex;
     flex-direction: column;
@@ -18,7 +18,6 @@
 
         :global(.ant-select-selector) {
             background-color: var(--bg-input);
-            border: 1px solid var(--bg-input) !important;
             border-radius: 4px;
             color: var(--color-text);
         }

@@ -1,3 +1,5 @@
+@import "@/style/reponsive";
+
 .sidebarRight {
     position: fixed;
     right: 0;
@@ -9,4 +11,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @include respond-to(tablet) {
+        display: none;
+        padding: 0;
+
+    }
+
+    @include respond-to(mobile) {
+        display: none;
+        padding: 0;
+
+    }
 }
